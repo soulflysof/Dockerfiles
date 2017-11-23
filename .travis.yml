@@ -2,6 +2,9 @@
   python:
     - 2.7
     - nightly 
+    - 3.6
+  env:
+    - PYTHONHASHSEED=0
   install:
     - python setup.py install  
   script:
